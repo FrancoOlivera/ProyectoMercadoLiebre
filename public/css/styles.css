@@ -203,6 +203,48 @@ footer section{
     padding: 20px;
 }
 
+.register-form{
+    padding: 20px 15px;
+}
+
+.control-formulario{
+    width: 100%;
+    margin: 15px 0px;
+    padding: 8px;
+}
+
+.profile{
+    margin: 25px;
+}
+
+.interests,
+.user-photo{
+    margin-top: 25px;
+}
+
+.button-submit,
+.button-reset{
+    background-color: #0044AA;
+    font-size: 20px;
+    color: #FFF;
+    padding: 10 px 20px;
+    border-radius: 5px;
+}
+
+.control-login,
+.button-login{
+    width: 100%;
+    margin: 15px 0px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-login{
+    background-color: #0044AA;
+    color: #FFF;
+}
+
 @media (min-width: 361px){
 
     div.top-header{

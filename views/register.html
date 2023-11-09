@@ -39,16 +39,16 @@
             </div>
         </header>
         <main class="register">
-            <form action="/" method="POST">
-                <input type="text" name="name" placeholder="Nombre y apellido">
-                <input type="text" name="user" placeholder="Nombre de usuario">
-                <input type="email" name="email" placeholder="E-mail">
+            <form action="/" method="POST" class="register-form">
+                <input type="text" name="name" placeholder="Nombre y apellido" class="control-formulario">
+                <input type="text" name="user" placeholder="Nombre de usuario" class="control-formulario">
+                <input type="email" name="email" placeholder="E-mail" class="control-formulario">
                 <br>
                 <label for="birth_date"><b>Fecha de nacimiento</b></label>
                 <br>
-                <input type="date" name="birth_date" id="birth_date">
+                <input type="date" name="birth_date" id="birth_date" class="control-formulario">
                 <br>
-                <input type="text" name="addres" placeholder="Domicilio">
+                <input type="text" name="addres" placeholder="Domicilio" class="control-formulario">
                 <h4>Perfil del usuario</h4>
                 <div class="profile">
                     <input type="radio" name="profile" value="buy" id="buy">
@@ -60,37 +60,37 @@
                 <h4>Intereses</h4>
                 <div class="interests">
                     <div>
-                        <input type="checkbox" name="interests" value="a" id="a">
-                        <label for="a">Electro</label>
+                        <input type="checkbox" name="interests" value="electro" id="electro">
+                        <label for="electro">Electro</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="interests" value="b" id="b">
-                        <label for="b">Moda</label>
+                        <input type="checkbox" name="interests" value="moda" id="moda">
+                        <label for="moda">Moda</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="interests" value="c" id="c">
-                        <label for="c">Hogar</label>
+                        <input type="checkbox" name="interests" value="hogar" id="hogar">
+                        <label for="hogar">Hogar</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="interests" value="d" id="d">
-                        <label for="d">Juguetería</label>
+                        <input type="checkbox" name="interests" value="jugueteria" id="jugueteria">
+                        <label for="jugueteria">Juguetería</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="interests" value="e" id="e">
-                        <label for="e">Vida sana</label>
+                        <input type="checkbox" name="interests" value="vida-sana" id="vida-sana">
+                        <label for="vida-sana">Vida sana</label>
                     </div>
                 </div>
                 
-                <h4>Elegí tu foto de usuario</h4>
-                <input type="file" name="avatar">
+                <h4 class="user-photo">Elegí tu foto de usuario</h4>
+                <input type="file" name="avatar" class="control-formulario">
                 <br>
                 <br>
-                <input type="password" name="pass" placeholder="Elegí tu contraseña">
-                <input type="password" name="pass_confirm" placeholder="Confirmá tu contraseña">
+                <input type="password" name="pass" placeholder="Elegí tu contraseña" class="control-formulario">
+                <input type="password" name="pass_confirm" placeholder="Confirmá tu contraseña"class="control-formulario">
                 <br>
                 <br>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Borrar">
+                <input type="submit" value="Enviar" class="button-submit">
+                <input type="reset" value="Borrar" class="button-reset">
                 <br>
                 <br>
             </form>
